@@ -1,0 +1,39 @@
+<?php
+
+// $Id: ba.install,v 1.2.2.1.2.3.2.17 2009/07/20 08:45:51 chadj Exp $
+
+/**
+ * @file
+ * Install file for ba syndicated article
+ */
+
+function ba_install() { 
+  // Create my tables.
+  drupal_install_schema('ba');
+}
+
+function ba_uninstall() { 
+  // Drop my tables.
+  drupal_uninstall_schema('ba');
+} 
+
+ 
+function ba_schema() {
+  $schema['bulk_article'] = array(
+   'description' => t('Bulk Articles node table.'),
+   'fields' => array(
+      'nid'        => array('type' => 'int', 'unsigned' => TRUE,  'not null' => TRUE, 'default' => 0, ),
+      'aid' => array('type' => 'varchar', 'length' => 30,  'not null' => TRUE, 'default' => '', ),
+      'url'        => array('type' => 'varchar', 'length' => 240, 'not null' => TRUE, 'default' => '', ),
+      'writer'     => array('type' => 'varchar', 'length' => 80,  'not null' => TRUE, 'default' => '', ),
+      'category'   => array('type' => 'varchar', 'length' => 80,  'not null' => TRUE, 'default' => '', ),
+      'keywords'   => array('type' => 'varchar', 'length' => 200,  'not null' => TRUE, 'default' => '', ),
+      'pub_date'   => array('type' => 'int', 'default' => 0, ),
+   ),
+   'primary key' => array('ba_nid' => 'nid'),
+   'indexes' => array(  
+      'aid' => array('aid'),
+   ),
+  ); 
+  return $schema;
+}

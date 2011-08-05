@@ -1,0 +1,6 @@
+name = Bulk Article Importer
+description = Scrapes sites like articlebase.com -- also accepts RSS feeds 
+package = "* KOC"
+core = 6.x
+ 
+

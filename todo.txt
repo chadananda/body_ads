@@ -1,0 +1,129 @@
+FBS Tasks:
+
+x Fix article page formatting (whitespace)
+x Fix tags formatting
+x Get tags linking to /subject/term
+x Add menu to footer or correct links in theme
+x Get /subject/term working with view
+
+ Pull down RSS feeds of new articles on isnare
+ Set articles to publish on schedule 
+ Change or get rid of tech maven list
+ 
+ Get audiopush set up on isnare articles, blogs 
+ Set up content type for review, define CCK fields
+ Theme up review
+ Write up instructions for review
+ Create role limited to reviews
+ Create workflow for review with payment screen
+ Create podcast feed and videocast feed for reviews
+ Assign first articles (or write them yourself)
+ 
+ Spider site for PR leaks
+ 
+ Push site live
+ Advertise for writers
+ 
+ 
+ Article Addition:
+ 
+ 1) Add links to cron process
+  * add links
+  * all links with local file will be added, others will go to cue
+  * on cron, cued link will be processed until one is added (one per 30 seconds)
+ 2) Parse in massive link list
+  * for each keyword
+  * fetch 10 pages of links
+  * add each link to cue
+ 
+
+
+
+
+
+
+
+http://www.isnare.com/?aid=452618&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=352865&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=323972&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=346581&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=176722&ca=Business 
+http://www.isnare.com/?aid=457799&ca=Business 
+http://www.isnare.com/?aid=455955&ca=Internet 
+http://www.isnare.com/?aid=449211&ca=Internet 
+http://www.isnare.com/?aid=418981&ca=Internet 
+http://www.isnare.com/?aid=409234&ca=Internet 
+http://www.isnare.com/?aid=339231&ca=Finances 
+http://www.isnare.com/?aid=317682&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=375256&ca=Computers+and+Technology
+http://www.isnare.com/?aid=312320&ca=Computers+and+Technology
+http://www.isnare.com/?aid=365801&ca=Computers+and+Technology
+http://www.isnare.com/?aid=346732&ca=Computers+and+Technology
+http://www.isnare.com/?aid=340029&ca=Computers+and+Technology
+http://www.isnare.com/?aid=238561&ca=Advice 
+http://www.isnare.com/?aid=286603&ca=Computers+and+Technology
+http://www.isnare.com/?aid=224194&ca=Computers+and+Technology
+http://www.isnare.com/?aid=261295&ca=Computers+and+Technology
+http://www.isnare.com/?aid=233726&ca=Computers+and+Technology
+http://www.isnare.com/?aid=233693&ca=Computers+and+Technology
+http://www.isnare.com/?aid=233690&ca=Computers+and+Technology
+http://www.isnare.com/?aid=130820&ca=Computers+and+Technology
+http://www.isnare.com/?aid=211075&ca=Computers+and+Technology
+http://www.isnare.com/?aid=138481&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=200415&ca=Internet
+http://www.isnare.com/?aid=135881&ca=Computers+and+Technology
+http://www.isnare.com/?aid=126673&ca=Business+Management
+http://www.isnare.com/?aid=159879&ca=Computers+and+Technology
+http://www.isnare.com/?aid=159881&ca=Computers+and+Technology
+http://www.isnare.com/?aid=159880&ca=Computers+and+Technology
+http://www.isnare.com/?aid=148188&ca=Computers+and+Technology
+http://www.isnare.com/?aid=142865&ca=Computers+and+Technology
+http://www.isnare.com/?aid=142172&ca=Computers+and+Technology
+http://www.isnare.com/?aid=141601&ca=Computers+and+Technology
+http://www.isnare.com/?aid=141180&ca=Computers+and+Technology
+http://www.isnare.com/?aid=124897&ca=Computers+and+Technology 
+http://www.isnare.com/?aid=110247&ca=Computers+and+Technology
+http://www.isnare.com/?aid=34101&ca=Internet
+http://www.isnare.com/?aid=73397&ca=Computers+and+Technology
+http://www.isnare.com/?aid=71494&ca=Internet
+http://www.isnare.com/?aid=59064&ca=Computers+and+Technology
+http://www.isnare.com/?aid=54548&ca=Computers+and+Technology
+http://www.articlesbase.com/information-technology-articles/data-backup-369204.html
+http://www.isnare.com/?aid=48526&ca=Computers+and+Technology
+http://www.isnare.com/?aid=47800&ca=Computers+and+Technology
+http://www.isnare.com/?aid=38286&ca=Computers+and+Technology
+http://www.isnare.com/?aid=38287&ca=Computers+and+Technology
+http://www.isnare.com/?aid=37220&ca=Computers+and+Technology
+http://www.isnare.com/?aid=35550&ca=Computers+and+Technology
+http://www.isnare.com/?aid=35548&ca=Computers+and+Technology
+http://www.isnare.com/?aid=33909&ca=Computers+and+Technology
+http://www.isnare.com/?aid=24278&ca=Computers+and+Technology
+http://www.isnare.com/?aid=24021&ca=Computers+and+Technology
+http://www.isnare.com/?aid=17704&ca=Computers+and+Technology
+http://www.isnare.com/?aid=14303&ca=Business+Management
+http://www.isnare.com/?aid=15995&ca=Computers+and+Technology
+http://www.isnare.com/?aid=15270&ca=Computers+and+Technology
+http://www.isnare.com/?aid=2178&ca=Business
+
+
+***************************
+
+Article Source urls
+
+http://www.articlesbase.com/information-technology-articles/data-backup-369204.html
+http://www.articlesbase.com/data-recovery-articles/data-backup-challenges-and-solutions-312904.html
+http://www.articlesbase.com/web-hosting-articles/data-backup-in-web-hosting-industry-44514.html
+http://www.articlesbase.com/data-recovery-articles/online-data-backup-local-data-storage-options-641051.html
+http://www.articlesbase.com/computers-articles/data-backup-and-disaster-recovery-the-importance-of-data-integrity-556471.html
+http://www.articlesbase.com/data-recovery-articles/online-data-backup-backup-your-data-online-342649.html
+
+
+
+
+
+
+
+
+
+
+
